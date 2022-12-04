@@ -54,5 +54,31 @@ namespace KutuphaneOtomasyonWinForm
 
 
         }
+
+        private void ekleKullanicibtn_Click(object sender, EventArgs e)
+        {
+            Kullanici.KullaniciEkleForm ekleForm = new Kullanici.KullaniciEkleForm();
+            ekleForm.MdiParent = this;
+            ekleForm.Show();
+
+
+
+        }
+
+        private void silKullanicibtn_Click(object sender, EventArgs e)
+        {
+            Kullanici.KullaniciSilForm kSil = new Kullanici.KullaniciSilForm();
+            kSil.MdiParent = this;
+            kSil.Show();
+
+        }
+
+        private void guncelleKullanicibtn_Click(object sender, EventArgs e)
+        {
+            Kullanici.KullaniciGuncelleForm kGuncel = new Kullanici.KullaniciGuncelleForm();
+            kGuncel.MdiParent = this;
+            kGuncel.Show();
+
+        }
     }
 }

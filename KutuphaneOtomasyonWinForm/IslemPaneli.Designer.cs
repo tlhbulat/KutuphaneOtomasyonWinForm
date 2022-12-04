@@ -66,6 +66,7 @@ namespace KutuphaneOtomasyonWinForm
             this.silKullanicibtn.Text = "SİL";
             this.silKullanicibtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.silKullanicibtn.UseVisualStyleBackColor = false;
+            this.silKullanicibtn.Click += new System.EventHandler(this.silKullanicibtn_Click);
             // 
             // guncelleKullanicibtn
             // 
@@ -81,6 +82,7 @@ namespace KutuphaneOtomasyonWinForm
             this.guncelleKullanicibtn.Text = "GÜNCELLE";
             this.guncelleKullanicibtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.guncelleKullanicibtn.UseVisualStyleBackColor = false;
+            this.guncelleKullanicibtn.Click += new System.EventHandler(this.guncelleKullanicibtn_Click);
             // 
             // ekleKullanicibtn
             // 
@@ -96,6 +98,7 @@ namespace KutuphaneOtomasyonWinForm
             this.ekleKullanicibtn.Text = "EKLE";
             this.ekleKullanicibtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ekleKullanicibtn.UseVisualStyleBackColor = false;
+            this.ekleKullanicibtn.Click += new System.EventHandler(this.ekleKullanicibtn_Click);
             // 
             // button1
             // 
